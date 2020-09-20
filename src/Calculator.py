@@ -121,7 +121,10 @@ class Calculator():
             self.evaluate()
         elif pressed_btn == '.':
             if self.is_Dec == False:
-                self.display_text = str(self.y)+'.'
+                if self.is_negative:
+                    self.display_text = '-' + str(self.y)+'.'
+                else:
+                    self.display_text = str(self.y)+'.'
             self.is_Dec = True
             
         elif pressed_btn == '%':
@@ -130,10 +133,6 @@ class Calculator():
             self.operator = self.new_operator
             self.new_operator = ''
             self.evaluate()
-            
-        elif pressed_btn == '⁺/₋':
-            self.y = self.y * (-1)
-            self.display_text = self.y
 
         elif pressed_btn == '=':
             self.is_negative = False
