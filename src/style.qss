@@ -1,0 +1,45 @@
+/*
+** Title: style.css
+** Name : 
+** @author : Rahul Manna
+** Created on : 2020-09-06 21:40:00
+** Description : 
+*/
+
+QPushButton{
+    border-radius:7px;
+    background-color:rgb(130,135,139);
+    color:white;
+    font-family:"Tahoma";
+    font-weight:normal;
+    font-size: 50px;
+}
+QPushButton:pressed{
+    background-color:rgb(92, 96, 99)
+} 
+calculator_UI{
+    background-color:rgb(0,39,46)
+}
+QPushButton#operator{
+    background-color: rgb(71, 76, 82);
+}
+QPushButton#operator:pressed{
+    background-color: rgb(92, 99, 107);
+}
+QPushButton#equal{
+    background-color: rgb(237, 100, 30);
+}
+QPushButton#equal:pressed{
+    background-color: rgb(214, 73, 3);
+}
+QPushButton#clear{
+    background-color: rgb(221, 0, 9);
+}
+QPushButton#clear:pressed{
+    background-color: rgb(175, 0, 6);
+}
+QLCDNumber{
+    background-color:rgb(172,190,138);
+    border:5px solid rgb(162,163,166);
+    border-radius:8px;
+}
