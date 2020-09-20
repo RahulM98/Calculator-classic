@@ -1,3 +1,3 @@
 # Calculator-classic
-#<br>
-Classic calculator using PyQt5
+
+Basic calculator with classic LCD display.<br>PyQt5 is used for GUI.
